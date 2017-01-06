@@ -48,4 +48,8 @@
   mergeoptions = --no-edit
 [user]
 	email = charly.martin.1207@gmail.com
-	name = Charly Martin
+	name = Charly MARTIN
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
